@@ -23,8 +23,7 @@ Import-Package: \
         org.eclipse.microprofile.config.spi;version="[2.0,3.0)", \
         *
 
-Private-Package: \
-    com.ibm.ws.microprofile.config14.cdi.services
+Private-Package: com.ibm.ws.microprofile.config20.cdi.services
 
 WS-TraceGroup: APPCONFIG
 
@@ -40,7 +39,7 @@ Include-Resource: \
 -buildpath: \
         com.ibm.ws.logging;version=latest,\
 	com.ibm.websphere.javaee.cdi.1.2;version=latest,\
-        com.ibm.ws.microprofile.config.2.0.cdi;version=latest,\
+	    com.ibm.ws.microprofile.config.2.0.cdi;version=latest,\
         com.ibm.ws.microprofile.config.1.4.cdi;version=latest,\
         com.ibm.ws.microprofile.config.1.2.cdi;version=latest,\
         com.ibm.ws.microprofile.config.1.1.cdi;version=latest,\

@@ -20,8 +20,7 @@ Bundle-Description:MicroProfile Configuration 2.0 Implementation, version ${bVer
 testsrc: test/src
 
 Export-Package: \
-        com.ibm.ws.microprofile.config20.impl, \
-        com.ibm.ws.microprofile.config20.converters
+        com.ibm.ws.microprofile.config20.impl
     
 Private-Package: \
         com.ibm.ws.microprofile.config20.resources, \

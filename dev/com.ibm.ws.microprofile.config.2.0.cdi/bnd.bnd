@@ -22,7 +22,7 @@ Import-Package: \
         com.ibm.ws.microprofile.config.cdi.resources, \
         *
 
-Export-Package: com.ibm.ws.microprofile.config14.cdi
+Export-Package: com.ibm.ws.microprofile.config20.cdi
 
 WS-TraceGroup: APPCONFIG
 
@@ -35,6 +35,7 @@ WS-TraceGroup: APPCONFIG
 	com.ibm.ws.microprofile.config.1.3;version=latest,\
 	com.ibm.ws.microprofile.config.1.4;version=latest,\
 	com.ibm.ws.microprofile.config.2.0;version=latest,\
+	com.ibm.ws.microprofile.config.1.4.cdi;version=latest,\
 	com.ibm.ws.microprofile.config.1.2.cdi;version=latest,\
 	com.ibm.ws.microprofile.config.1.1.cdi;version=latest,\
 	com.ibm.ws.cdi.interfaces;version=latest,\
